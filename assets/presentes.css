@@ -129,3 +129,15 @@ hr {
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0));
 }
+
+.botao-comprar {
+    width: 250px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.emoji {
+    width: 24px;
+    height: auto;
+    vertical-align: top;
+}
