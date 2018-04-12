@@ -13,7 +13,25 @@
     <meta property="og:title" content="Klausjatea">
     <meta property="og:description" content="O site do nosso chá está no ar! Confirme sua presença e confira a lista de presentes =)">
     <meta property="og:image" content="assets/capa.jpg">
-    <meta >
+    
+    <script>
+        window['_fs_debug'] = false;
+        window['_fs_host'] = 'fullstory.com';
+        window['_fs_org'] = 'BJNF4';
+        window['_fs_namespace'] = 'FS';
+        (function (m, n, e, t, l, o, g, y) {
+            if (e in m) { if (m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].'); } return; }
+            g = m[e] = function (a, b) { g.q ? g.q.push([a, b]) : g._api(a, b); }; g.q = [];
+            o = n.createElement(t); o.async = 1; o.src = 'https://' + _fs_host + '/s/fs.js';
+            y = n.getElementsByTagName(t)[0]; y.parentNode.insertBefore(o, y);
+            g.identify = function (i, v) { g(l, { uid: i }); if (v) g(l, v) }; g.setUserVars = function (v) { g(l, v) };
+            y = "rec"; g.shutdown = function (i, v) { g(y, !1) }; g.restart = function (i, v) { g(y, !0) };
+            y = "consent"; g[y] = function (a) { g(y, !arguments.length || a) };
+            g.identifyAccount = function (i, v) { o = 'account'; v = v || {}; v.acctId = i; g(o, v) };
+            g.clearUserCookie = function () { };
+        })(window, document, window['_fs_namespace'], 'script', 'user');
+    </script>
+
 </head>
 <body>
     <div class="capa" style="position:fixed; top:0px; left:0px; z-index:900; width:100%; overflow-y:hidden; overflow-x:hidden; margin:auto;">
@@ -27,7 +45,7 @@
         <div class="button-container">
             <img src="assets/check.svg" class="check" alt="check">
             <a href="https://raphael12.typeform.com/to/QBtDDQ" target="_blank">
-                Confirme sua presença
+                Nos diga se você vai
             </a>
             <!-- <span>|</span> -->
             <img src="assets/gift.svg" class="gift" alt="gift">
